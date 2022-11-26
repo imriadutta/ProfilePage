@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{user.name}}'s Profile</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div id="back-button">
+        <button onclick="window.history.back()">Go back to Dashboard</button>
+    </div>
+
+    <h1>Profile Details</h1>
+    <div>
+        <p>Name: {{user.name}}</p>
+        <p>Email: {{user.email}}</p>
+        <p>Phone: {{user.phone}}</p>
+        <p>Date of Birth: {{user.dob}}</p>
+        <p>Sex: {{user.sex}}</p>
+        <p>Profile picture: </p>
+        {% if user.image != '' %}
+        <div>
+            <img src="/media/{{user.pic}}" width="200px">
+        </div>
+        {% else %}
+        <p>No profile picture uploaded</p>
+        {% endif %}
+    </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+            <p>
+                2022 &copy; All rights reserved
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

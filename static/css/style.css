@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header style */
+#header {
+    background-color: #ef4336;
+    padding: 0.1%;
+}
+
+#header ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#header ul li {
+    display: inline;
+}
+
+#header ul li a {
+    text-decoration: none;
+    padding: 1%;
+    color: white;
+}
+
+#header ul li a:hover {
+    background-color: #f3b324;
+}
+
+/* footer style */
+#footer {
+    text-align: center;
+    background-color: #ef4336;
+    padding: 0.1%;
+    color: white;
+}
+
+/* home style */
+
+
+/* profile style */
+#back-button button {
+    border: none;
+    background-color: #ef4336;
+    color: white;
+    padding: 0.5%;
+}
+
+#back-button button:hover {
+    background-color: #f3b324;
+}
