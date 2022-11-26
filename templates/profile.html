@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="column col1">
-                {% if user.image == '' %}
+                {% if user.image != '' %}
                 <img src="/media/{{user.pic}}" width="100px" height="100px">
                 {% else %}
                 <img src="/static/images/profpic.png" width="100px">
