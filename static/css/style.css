@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 /* header style */
@@ -30,9 +30,9 @@
 /* footer style */
 #footer {
     text-align: center;
-    background-color: #ef4336;
+    background-color: #d3d3d3;
     padding: 0.1%;
-    color: white;
+    color: black;
 }
 
 /* home style */
@@ -44,8 +44,43 @@
     background-color: #ef4336;
     color: white;
     padding: 0.5%;
+    margin: 20px;
 }
 
 #back-button button:hover {
+    background-color: #f3b324;
+}
+
+.container {
+    background-color: #f1f3f6;
+    padding: 20px 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    margin: 20px;
+    background-color: white;
+}
+
+.col1 {
+    flex: 20%;
+}
+
+.col2 {
+    flex: 80%;
+}
+
+.btn {
+    border: none;
+    background-color: #ef4336;
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.btn:hover {
     background-color: #f3b324;
 }
